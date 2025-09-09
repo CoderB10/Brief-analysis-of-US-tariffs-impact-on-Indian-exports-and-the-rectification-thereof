@@ -11,7 +11,7 @@
 
 ## 1) Data acquisition & preparation
 
-**Data source (5 years):**
+**Data source (9 years):**
 
 * India’s Ministry of Commerce / DGCIS (annual exports by broad category)
 
