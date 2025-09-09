@@ -19,7 +19,7 @@
 
 | Field                        | Example                                     | Notes               |
 | ---------------------------- | ------------------------------------------- | ------------------- |
-| `Year`                       | 2020…2024                                   | Fiscal years        |
+| `Year`                       | 2016…2024                                   | Fiscal years        |
 | `Export Category`            | Textile Products, Pharma, Engineering, etc. | 9 aggregate buckets |
 | `Export Value (USD Million)` | 10,959                                      | Annual value        |
 
@@ -59,7 +59,7 @@ model = XGBRegressor(
 
 * **Features:** `year_index` + one‑hot(`Export Category`)
 * **Target:** `Export Value (USD Million)`
-* **Train window:** 2020–2024
+* **Train window:** 2016–2024
 * **Predict:** 2025 baseline (**no tariff**)
 
 ---
